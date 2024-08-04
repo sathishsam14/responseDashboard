@@ -1,0 +1,57 @@
+
+.back-btn {
+    border: 1px solid #000033;
+    border-radius: 3px;
+    padding: 3px;
+    color: blue;
+    font-family: "Roboto";
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.notify-icon {
+    font-size: 50px;
+}
+
+.content-notify {
+    width: 70%;
+    text-align: center;
+    margin: 150px ;
+    padding: 20px;
+    background-color: transparent;
+   
+}
+
+
+@media (max-width: 768px) {
+    .content-notify {
+        margin: 100px 50px;
+    }
+
+    .notify-icon {
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .content-notify {
+        margin: 200px 20px;
+        padding: 10px;
+    }
+
+    .notify-icon {
+        font-size: 40px;
+    }
+    .chart-con h2{
+        font-size: 20px;
+       }
+
+   .chart-con p{
+    font-size: 14px;
+   }
+    .back-btn {
+        padding: 2px;
+        font-size: 14px;
+    }
+}

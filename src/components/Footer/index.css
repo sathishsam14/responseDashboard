@@ -1,0 +1,141 @@
+
+.footer {
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 1;
+  }
+  
+  .footer.light-mode {
+    background-color: #f1f1f1;
+    color: #000;
+  }
+  
+  .footer.dark-mode {
+    background-color: #333;
+    color: #fff ;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    margin: 10px;
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .footer-section p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .social-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .social-links li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .social-links.dark-mode {
+    
+    color: #fff ;
+  }
+  .social-links.light-mode {
+    color: #000;
+  
+  }
+
+  .social-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 5px 0;
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-section {
+      margin: 10px 0;
+      flex: unset;
+      min-width: unset;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .social-links li {
+      display: block;
+      margin: 5px 0;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .footer-section h4 {
+      font-size: 16px;
+    }
+
+    .footer{
+height: 50vh;
+    }
+
+  .section-con{
+    display: flex;
+    justify-content: space-between;
+  }
+
+    .footer-section p {
+      font-size: 8px;
+     
+    }
+    .footer-section h4 {
+      font-size: 10px;
+      font-weight: 500;
+    }
+
+    .footer-bottom p{
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 990px;
+      padding-bottom: 100px;
+    }
+
+    .social-links.dark-mode {
+        margin: 5px 0;
+        color: #fff !important;
+        font-size: 8px;
+      }
+      .social-links.light-mode {
+        color: #000 !important;
+        margin: 5px 0;
+        font-size: 8px;
+      }
+
+      .footer-section{
+        width: 80%;
+        text-align: center;
+      }
+  }
+  
