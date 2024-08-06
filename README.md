@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Responsive Dashboard Application is a web application designed to provide users with an intuitive interface for dashboard. The application is fully responsive, ensuring a seamless experience across all devices, from desktops to mobile phones.
+The Responsive Dashboard Application is a web application designed to provide users with an intuitive interface for managing dashboards. The application is fully responsive, ensuring a seamless experience across all devices, from desktops to mobile phones.
 
 ## Features
 
